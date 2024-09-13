@@ -28,4 +28,19 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    /* Optimize images */
+.product-gallery img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .product-gallery {
+        flex-direction: column;
+    }
+}
+
 }
